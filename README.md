@@ -20,10 +20,10 @@ Além destes, foram criados dois Models, um de User e outro de Pizza, para que t
 Para todos as telas criadas, nenhuma biblioteca foi utilizada, apenas HTML e SCSS. A unica instalada é a Material disponibilizada pelo Angular Material, para utilização de icones e mensagens de erros. 
 
 ## Para rodar o projeto
-  yarn (para instalar dependencias)
-  yarn start (para rodar local)
+  --yarn (para instalar dependencias)
+  --yarn start (para rodar local)
 ## Para entrar:
   Login: Usuario / Senha: 123
-  Login: Administrador / Senha: 456
+  -- Login: Administrador / Senha: 456
 
 
