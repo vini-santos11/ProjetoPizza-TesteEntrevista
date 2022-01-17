@@ -1,0 +1,14 @@
+.image {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+
+  p {
+    font-size: 10px;
+    margin: 10px;
+    color: var(--white);
+  }
+}

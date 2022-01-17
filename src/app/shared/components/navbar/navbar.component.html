@@ -1,0 +1,22 @@
+<nav class="nav-container">
+  <div class="nav-logo">
+    <a [routerLink]="['/home']" >
+      <img
+        src="assets/svgs/logopizza.svg"
+        alt="logopizza.svg"
+        width="45"
+        height="40"
+      />
+    </a>
+  </div>
+  <div class="nav-itens">
+    <div class="menu-itens">
+      <a [routerLink]="['/home']" routerLinkActive="active" >Home</a>
+      <a [routerLink]="['/menu']" *ngIf="hasMenuPermission()" routerLinkActive="active" >Cardápio</a>
+    </div>
+    <div class="nav-icons">
+      <mat-icon aria-hidden="false">shopping_cart</mat-icon>
+      <mat-icon (click)="logout()">logout</mat-icon>
+    </div>
+  </div>
+</nav>

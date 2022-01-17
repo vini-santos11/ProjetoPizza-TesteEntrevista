@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "pizza": "CALABRESA",
+    "description": "Mussarela, Calabresa, Cebola, Orégano"
+  },
+  {
+    "id": 2,
+    "pizza": "MUSSARELA",
+    "description": "Mussarela, Tomate, Azeitona, Orégano"
+  },
+  {
+    "id": 3,
+    "pizza": "FRANGO C/ CATUPIRY",
+    "description": "Mussarela, Frango Desfiado, Catupiry, Azeitona, Cebola, Orégano"
+  },
+  {
+    "id": 4,
+    "pizza": "BAIANA",
+    "description": "Mussarela, Calabresa triturada, Pimenta, Cebola, Azeitona, Orégano"
+  },
+  {
+    "id": 5,
+    "pizza": "PORTUGUESA",
+    "description": "Mussarela, Presunto, Tomate, Ovo cozido, Cebola, Orégano"
+  },
+  {
+    "id": 6,
+    "pizza": "MODA DA CASA",
+    "description": "Mussarela, Frango Desfiado, Catupiry, Palmito, Bacon, Azeitona, Orégano"
+  },
+  {
+    "id": 7,
+    "pizza": "CHOCOLATE",
+    "description": "Chocolate, e Chocolate Granulado"
+  },
+  {
+    "id": 8,
+    "pizza": "BANANA C/ CANELA E AÇUCAR",
+    "description": "Banana, Canela e Açucar"
+  }
+]

@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="image">
+    <img src="assets/images/pizza-big-image.png" alt="pizza-image.png" />
+  </div>
+  <div class="itens">
+    <h2>
+      {{pizza?.pizza}}
+    </h2>
+    <P>
+      {{pizza?.description}}
+    </P>
+
+    <div class="buttons">
+      <button class="back" (click)="redirectTo()">
+        <mat-icon class="icon">arrow_back_ios</mat-icon>
+        Voltar
+      </button>
+      <button class="cart">
+        <mat-icon class="icon">add_shopping_cart</mat-icon>
+        Carrinho +
+      </button>
+    </div>
+  </div>
+</div>

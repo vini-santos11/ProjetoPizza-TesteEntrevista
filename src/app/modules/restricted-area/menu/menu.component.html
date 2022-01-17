@@ -1,0 +1,8 @@
+<div class="pizza-card">
+  <app-pizza-card
+    [pizza]="item"
+    *ngFor="let item of pizzas"
+    (handleClick)="clicked($event)"
+    class="card">
+  </app-pizza-card>
+</div>

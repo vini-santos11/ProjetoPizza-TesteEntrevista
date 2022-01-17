@@ -1,0 +1,33 @@
+.container-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border: 2px solid var(--white);
+  border-radius: 18px;
+  width: min-content;
+  text-decoration: none;
+
+  .text-content {
+    height: 68px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-weight: bold;
+      color: var(--white);
+    }
+  }
+
+  &:hover {
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+    border-color: var(--yellow);
+  }
+}

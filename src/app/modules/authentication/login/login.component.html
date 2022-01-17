@@ -1,0 +1,12 @@
+<div class="wrapper">
+    <div class="custom-card">
+        <img src="assets/svgs/logopizza.svg" alt="logopizza.svg" />
+        <h2>Login</h2>
+
+        <form (ngSubmit)="signIn(name, password)">
+            <input #name type="text" name="name" placeholder="Nome">
+            <input #password type="password" name="password" placeholder="Senha">
+            <button type="submit">ENTRAR</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+{
+    "usuarios": {
+        "user1": {
+            "senha": "123",
+            "id": 1,
+            "nome": "Usuario",
+            "rotas": [
+                "/home"
+            ]
+        },
+        "user2": {
+            "senha": "456",
+            "id": 2,
+            "nome": "Administrador",
+            "rotas": [
+                "/home",
+                "/menu",
+                "/pizzas/:id"
+            ]
+        }
+    }
+}
+
